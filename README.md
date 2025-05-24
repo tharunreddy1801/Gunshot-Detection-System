@@ -76,9 +76,8 @@ Where:
 
 #### MUSIC Equation (simplified):
 
-\[
-P_{\text{MUSIC}}(\theta) = \frac{1}{a^H(\theta) E_n E_n^H a(\theta)}
-\]
+![MUSIC Formula](https://latex.codecogs.com/png.latex?P_{\text{MUSIC}}(\theta)%20=%20\frac{1}{a^H(\theta)%20E_n%20E_n^H%20a(\theta)})
+
 
 Where:
 - \( a(\theta) \) = steering vector for angle \( \theta \)
