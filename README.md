@@ -48,18 +48,14 @@ Modern battlefields demand intelligent systems that can identify and localize th
 
 #### TDOA Equation:
 
-\[
-d_{12} = v \cdot \Delta T_{12}
-\]
+![TDOA1](https://latex.codecogs.com/png.latex?\dpi{150}\color{White}d_{12}%20=%20v%20\cdot%20\Delta%20T_{12})
 
-\[
-\sqrt{(x - x_1)^2 + (y - y_1)^2 + (z - z_1)^2} - \sqrt{(x - x_2)^2 + (y - y_2)^2 + (z - z_2)^2} = v \cdot \Delta T_{12}
-\]
+![TDOA2](https://latex.codecogs.com/png.latex?\dpi{150}\color{White}\sqrt{(x%20-%20x_1)^2%20+%20(y%20-%20y_1)^2%20+%20(z%20-%20z_1)^2}%20-%20\sqrt{(x%20-%20x_2)^2%20+%20(y%20-%20y_2)^2%20+%20(z%20-%20z_2)^2}%20=%20v%20\cdot%20\Delta%20T_{12})
 
 Where:
-- \( d_{12} \) = distance difference from source to microphone 1 and 2
-- \( v \) = speed of sound (~343 m/s)
-- \( \Delta T_{12} \) = time difference of arrival between mic1 and mic2
+- d₁₂ = distance difference from the source to microphone 1 and microphone 2
+- v = speed of sound (approximately 343 m/s)
+- ΔT₁₂ = time difference of arrival between microphone 1 and microphone 2
 
 ---
 
@@ -76,13 +72,14 @@ Where:
 
 #### MUSIC Equation (simplified):
 
-![MUSIC Formula](https://latex.codecogs.com/png.latex?P_{\text{MUSIC}}(\theta)%20=%20\frac{1}{a^H(\theta)%20E_n%20E_n^H%20a(\theta)})
+![MUSIC Formula](https://latex.codecogs.com/png.latex?\dpi{150}\color{White}P_{\text{MUSIC}}(\theta)%20=%20\frac{1}{a^H(\theta)%20E_n%20E_n^H%20a(\theta)})
 
 
 Where:
-- \( a(\theta) \) = steering vector for angle \( \theta \)
-- \( E_n \) = eigenvectors corresponding to noise subspace
-- \( ^H \) = Hermitian (complex conjugate transpose)
+- a(θ) = steering vector for angle θ  
+- En = eigenvectors corresponding to noise subspace  
+- ^H = Hermitian (complex conjugate transpose)
+
 
 #### Advantages:
 - High angular resolution, even with closely spaced sources
