@@ -107,7 +107,7 @@ Where:
 
 Here is a screenshot of the system in action:
 
-![Gunshot Detection Screenshot]("C:\Users\yenna\OneDrive\Desktop\sih.png")
+![Gunshot Detection Screenshot](https://github.com/tharunreddy1801/Gunshot-Detection-System/blob/main/sih.png)
 
 ---
 
