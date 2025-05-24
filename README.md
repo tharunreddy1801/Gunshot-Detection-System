@@ -103,6 +103,14 @@ Where:
 
 ---
 
+## 🖥️ System architecture
+
+Here is a screenshot of the system in action:
+
+![Gunshot Detection Screenshot]("C:\Users\yenna\OneDrive\Desktop\sih.png")
+
+---
+
 ## 💻 Implementation Platform
 
 - **Hardware**: Zynq SoC / FPGA (for real-time signal processing)
@@ -114,7 +122,7 @@ Where:
 
 ## 🧪 Test Case Example
 
-- **Environment**: Open ground, ambient noise < 70 dB
+- **Environment**: Audio file of Gun shot.
 - **Gunfire**: Simulated using speaker with gunshot audio
 - **Result**: System successfully classified and localized within ±5° error margin
 
